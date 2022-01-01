@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    }
+
+.container{
+    max-width: 80%;
+     padding: 5px;
+    margin:auto;
+}
+
+.heading{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: darkred ; 
+   }
+
+.container h1,h3,.SubmitMsg{
+    text-align: center ;
+}
+
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+}
+.SubmitMsg{
+    font-size: 22px;
+    color: green;
+}
+ 
+input, textarea{
+    border:2px solid rgb(134, 36, 36);
+    border-radius: 8px;
+    outline:none;
+    width: 80%;
+    margin: 11px auto;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #ffbe98;
+    }
+
+textarea{
+    color: black;
+}
+form{
+    display : flex;
+    align-items: center;
+    justify-content : center;
+    flex-direction: column;
+}
+
+.btn{
+border: 2px solid rgb(226, 79, 79);
+color: white;
+background-color: rgba(78, 7, 7, 0.918) ;
+padding: 8px 12px;
+font-size: 20px;
+border-radius: 15px;
+cursor: pointer;
+}
+
+::placeholder { 
+        color:  rgb(0, 0, 0);
+        opacity: 1; 
+}
+
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index : -1;
+    opacity: 0.5;
+
+}
